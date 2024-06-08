@@ -50,7 +50,6 @@ set(TARGET AVX CACHE STRING "Set CPU architecture target")
 
 # Populate a list of allowable targets and link it to the option
 set(ALLOWED_TARGETS
-		AVX
 		GENERIC
 		)
 set_property(CACHE TARGET PROPERTY STRINGS ${ALLOWED_TARGETS})
